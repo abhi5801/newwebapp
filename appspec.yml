@@ -13,6 +13,6 @@ files:
 
 hooks:
   AfterInstall:
-    - location: scripts/dep.sh
+    - location: script/dep.sh
       timeout: 300
       runas: root

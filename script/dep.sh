@@ -3,10 +3,10 @@
 echo "Deployment Started"
 
 # Update packages
-yum update -y
+apt update -y
 
 # Install Apache if not installed
-yum install httpd -y
+apt install apache2 -y
 
 
 rm -f  /var/www/html/index.html
